@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import {useNavigation, useRoute} from '@react-navigation/core';
 import {SafeAreaView, Text} from 'react-native';
+
+import {useNavigation, useRoute} from '@react-navigation/core';
 
 import Input from '../../../components/Input';
 import Button from '../../../components/Button';
@@ -17,14 +18,14 @@ export default function CreateMenu() {
   const route = useRoute();
 
   function handleNavigateDetail() {
-    const fd = {
+    const food = {
       name: name,
       description: description,
       ingredients: ingredients,
       price: price,
     };
 
-    navigation.navigate('MenuDetailPage', {fd});
+    navigation.navigate('MenuDetailPage', {food});
   }
 
   return (

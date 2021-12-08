@@ -7,24 +7,30 @@ const deviceSize = Dimensions.get('window');
 
 export default StyleSheet.create({
   container: {
+    flex: 1,
     margin: spacing.normal,
-    borderWidth: 1,
-    borderColor: '#bdbdbd',
-    borderRadius: radius.sharp,
+    borderWidth: 2,
+    borderRadius: radius.soft,
   },
   image: {
-    backgroundColor: '#bdbdbd',
     height: deviceSize.height / 6,
   },
   name_label: {
     fontWeight: 'bold',
     margin: spacing.tiny,
+    textAlign: 'center',
+    color: '#37474f',
   },
-  add_button_container: {
-    bottom: 15,
-    right: 5,
-    borderRadius: 20,
-    position: 'absolute',
-    backgroundColor: '#039be5',
+  name_container: {
+    backgroundColor: '#a5d6a7',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    borderBottomLeftRadius: 7,
+    borderBottomRightRadius: 7,
+  },
+  order: {
+    fontWeight: 'bold',
+    margin: spacing.tiny,
+    fontSize: 10,
   },
 });

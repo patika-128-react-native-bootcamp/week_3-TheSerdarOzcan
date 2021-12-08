@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 import Products from '../../pages/Product/Products';
@@ -10,7 +11,7 @@ export default function ProductsStack() {
   return (
     <Stack.Navigator>
       <Stack.Screen
-        name="PrdctsPage"
+        name="ProductsPage"
         component={Products}
         options={{
           headerTintColor: 'black',
@@ -22,7 +23,7 @@ export default function ProductsStack() {
         }}
       />
       <Stack.Screen
-        name="PrdctDtlPage"
+        name="ProductDetailPage"
         component={ProductDetail}
         options={{
           headerTintColor: 'black',
