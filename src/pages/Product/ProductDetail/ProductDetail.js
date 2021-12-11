@@ -1,7 +1,9 @@
-import {useRoute} from '@react-navigation/core';
 import React from 'react';
 import {View, SafeAreaView, Text, ScrollView, Image} from 'react-native';
+
+import {useRoute} from '@react-navigation/core';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+
 import styles from './ProductDetail.styles';
 
 export default function ProductDetail() {

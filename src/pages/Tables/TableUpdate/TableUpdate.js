@@ -1,8 +1,9 @@
-import {useNavigation, useRoute} from '@react-navigation/core';
 import React from 'react';
 import {SafeAreaView, View, Text} from 'react-native';
-import Button from '../../../components/Button';
 
+import {useNavigation, useRoute} from '@react-navigation/core';
+
+import Button from '../../../components/Button';
 import styles from './TableUpdate.styles';
 
 const mapOrders = (order, i) => (

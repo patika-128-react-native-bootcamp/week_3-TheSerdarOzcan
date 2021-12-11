@@ -1,11 +1,12 @@
 import React from 'react';
+
 import {NavigationContainer} from '@react-navigation/native';
 import {createDrawerNavigator} from '@react-navigation/drawer';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 import MenuStack from './MenuStack';
 import TableStack from './TableStack';
 import ProductsStack from './ProductsStack';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const Drawer = createDrawerNavigator();
 

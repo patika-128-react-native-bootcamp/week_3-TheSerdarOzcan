@@ -1,5 +1,7 @@
 import {Dimensions, StyleSheet} from 'react-native';
 
+import spacing from '../../../styles/spacing';
+
 export default StyleSheet.create({
   container: {
     flex: 1,
@@ -16,10 +18,10 @@ export default StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    padding: 5,
+    padding: spacing.tiny,
   },
   description: {
-    margin: 5,
+    margin: spacing.tiny,
     fontSize: 12,
   },
   description_container: {

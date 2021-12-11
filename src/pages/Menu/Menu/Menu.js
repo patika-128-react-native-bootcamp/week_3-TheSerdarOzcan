@@ -1,10 +1,10 @@
 import React from 'react';
 import {SafeAreaView, FlatList, View} from 'react-native';
+
 import {useNavigation} from '@react-navigation/core';
 
-import styles from './Menu.styles';
 import MenuCard from '../../../components/cards/MenuCard';
-
+import styles from './Menu.styles';
 import mockData from '../../../MOCK_DATA.json';
 
 export default function Menu() {
